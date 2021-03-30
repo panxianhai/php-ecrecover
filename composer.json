@@ -1,0 +1,21 @@
+{
+    "name": "panxianhai/php-ecrecover",
+    "description": "PHP ECRecover",
+    "keywords": ["ecrecover"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hunter Wu",
+            "homepage": "https://github.com/wmh/php-ecrecover"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "kornrunner/keccak": "^1.0",
+        "ext-gmp": "*"
+    },
+    "autoload": {
+        "classmap": ["CryptoCurrencyPHP"],
+        "files": ["ecrecover_helper.php"]
+    }
+}
